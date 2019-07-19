@@ -1,0 +1,5 @@
+C:\Users\Owner\Documents\tech_academy\c# course\proj1\proj1\obj\Debug\proj1.csprojAssemblyReference.cache
+C:\Users\Owner\Documents\tech_academy\c# course\proj1\proj1\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Documents\tech_academy\c# course\proj1\proj1\obj\Debug\App.g.cs
+C:\Users\Owner\Documents\tech_academy\c# course\proj1\proj1\obj\Debug\proj1_MarkupCompile.cache
+C:\Users\Owner\Documents\tech_academy\c# course\proj1\proj1\obj\Debug\proj1_MarkupCompile.lref
