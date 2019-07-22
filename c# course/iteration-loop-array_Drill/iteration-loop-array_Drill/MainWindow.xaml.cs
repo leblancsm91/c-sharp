@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Program
 {
     static void Main(string[] args)
-    {
+    {/*
         //1. 2. 3.
         string[] rainbow = { "red", "orange", "yellow", "green", "blue", "purple" };
         Console.WriteLine("what color is not in the rainbow?");
@@ -69,18 +69,44 @@ class Program
             }
         }
         Console.ReadLine();
+        */
+        //9. 10. 
+        List<string> weatherTypes = new List<string>() { "hot", "wet", "cold", "moderate", "hot" };
 
-        //9.
-        List<string> weatherTypes = new List<string>() { "hot and sunny", "rainy and wet", "cold", "moderately warm"};
-        List<string> wTypes = new List<string>() { "moderately cold", "hot and sunny", "dark and cloudy" };
-
-        foreach (string type in weatherTypes)
+        Console.WriteLine("type a climate that is in the list");
+        string answerW = Console.ReadLine();
+        if (weatherTypes.Contains(answerW))
         {
-            foreach (string w in wTypes)
-                if (type == w)
-                {
-                   Console.WriteLine("correct!")
-                }
+            for (int W = 0; W < weatherTypes.Count; W++)
+            {
+                Console.WriteLine(W);
+            }
         }
+        else
+        {
+            Console.WriteLine("your input is n ot apart of the weatheer/climates on the list");
+        }
+        Console.ReadLine();
+
+        //10.
+        List<string> patterns = new List<string>() { "spots", "stripes", "stripes" };
+
+        foreach (string pattern in patterns)
+        {
+            Console.WriteLine(pattern);
+            if ("spots")
+            {
+                Console.WriteLine("it's on the list,your'eright!");
+            }
+            if ("stripes")
+            {
+                Console.WriteLine("it already appearsonthe list!");
+            }
+            else
+            {
+                Console.WriteLine("tha'ts not onthe array list");
+            }
+        }
+        Console.ReadLine();
     }
 }
