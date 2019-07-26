@@ -9,9 +9,8 @@ class Program
     {
         Console.Write("Anonymous Income Comparison Program");
 
-        Console.WriteLine("Person 1");
-        Console.WriteLine("What is the hourly rate?");
-        int hourlyRate1 = Console.ReadLine(12);
+        Console.WriteLine("Weekly hourly rate of person 1");
+        int hourlyRate1 = Convert.ToInt((Console.ReadLine());
 
         Console.WriteLine("What are the hours worked per week?");
         int hoursWorked1 = Console.ReadLine(30);
@@ -24,12 +23,16 @@ class Program
         int hoursWorked2 = Console.ReadLine(40);
 
         Console.WriteLine("Weekly salary of Person 1");
-        int salaryp1 = Console.ReadLine(hourlyRate1 * hoursWorked1);
+        int salaryp1 = (hourlyRate1 * hoursWorked1);
+        Console.ReadLine();
 
         Console.WriteLine("Weekly salary of Person 2");
-        int salaryp2 = Console.ReadLine(hourlyRate2 * hoursWorked2);
+        int salaryp2 = (hourlyRate2 * hoursWorked2);
+        Console.ReadLine();
 
         Console.WriteLine("Does Person1 make more than Person2?");
-        bool answer = Console.ReadLine(if yes = true, else = false);
+        bool answer = salaryp1 > salaryp2;
+        Console.WriteLine(answer);
+        Console.ReadLine();
     }
 }
