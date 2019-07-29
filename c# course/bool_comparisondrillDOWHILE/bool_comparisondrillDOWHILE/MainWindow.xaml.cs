@@ -10,31 +10,20 @@ namespace boolean_comparisondrill
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("type a color");
-            string color = Console.ReadLine();
-            bool chosenColor = false;
+            string color = "";
 
             do
             {
-                switch (color)
+                Console.WriteLine("choose a color: \nRed \nOrange \nYellow \nGreen \nBlue \nPurple");
+                Console.ReadLine(); .ToUpper();
+                if (color == "Red" || "Orange" || "Yellow" || "Green" || "Blue" || "Purple")
                 {
-                    case yellow:
-                        Console.WriteLine("yellow is not hte color. please pick again");
-                        break;
-
-                    case green:
-                        Console.WriteLine("green is not hte color. please choose again.");
-                        break;
-
-                    case blue:
-                        Console.WriteLine("yes! this is the color!");
-                        break;
+                    break;
                 }
             }
-            while (!chosenColor);
+            while (color != "Red" || "Orange" || "Yellow" || "Green" || "Blue" || "Purple");
+            Console.WriteLine("Good job!");
             Console.ReadLine();
         }
     }
-
-}
 }
