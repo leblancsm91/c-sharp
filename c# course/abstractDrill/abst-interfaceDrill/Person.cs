@@ -11,10 +11,24 @@ namespace abstractDrill
         public string FirstName;
         public string LastName;
 
+        public static Employee operator= (Employee name, Person id)
+        {
+            name.persons.Add(Person);
+            if (Emp1ID == Emp2ID)
+            {
+                return name;
+            }
+        }
+
+
+
+
+
         public void SayName()
         {
 
         }
 
+        
     }
 }

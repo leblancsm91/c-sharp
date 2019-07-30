@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace abstractDrill
 {
-    interface abstract IQuit
+    interface IQuit
     {
         void Quit();
     }

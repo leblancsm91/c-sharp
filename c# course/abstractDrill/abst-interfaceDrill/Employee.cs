@@ -14,9 +14,11 @@ namespace abstractDrill
         }
         public void Quit()
         {
-            IQuit IQuittable = new IQuit();
-            Quit.IQuittable;
         }
+
+        int Emp1ID = 001;
+        int Emp2ID = 002;
+
 
     }
 }
