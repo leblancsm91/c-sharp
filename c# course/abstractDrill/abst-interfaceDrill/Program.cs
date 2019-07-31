@@ -10,6 +10,21 @@ namespace abstractDrill
     {
         public static void Main(string[] args)
         {
+            Employee<string> things = new Employee<string>()
+            {
+                "these", "are", "things"
+            };
+            Console.WriteLine(things.value);
+            //GENERIC
+
+            Employee<int> otherThings = new Employee<int>()
+            {
+                1, 2, 3
+            };
+            Console.WriteLine(otherThings.value);
+            //GENERIC
+
+
             Employee name = new Employee();
             name.persons = new List<Person>();
             Person Emp1ID = new Person();
@@ -20,10 +35,10 @@ namespace abstractDrill
             name.FirstName = "Sample";
             name.LastName = "Student";
             name.SayName();
-            Console.ReadLine();
 
             IQuit IQuittble = new IQuit();
             IQuittable.Quit();
         }
+        Console.ReadLine();
     }
 }

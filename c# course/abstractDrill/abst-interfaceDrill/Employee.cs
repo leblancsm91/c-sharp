@@ -15,10 +15,31 @@ namespace abstractDrill
         public void Quit()
         {
         }
-
-        int Emp1ID = 001;
-        int Emp2ID = 002;
-
-
     }
+    public class Things<string> //GENERIC
+    {
+        public string value
+        {
+            get
+            {
+                return;
+            }
+            set
+            {
+                this.things = value;
+            }
+        }
+        public int value
+        {
+            get
+            {
+                return;
+            }
+            set
+            {
+                this.otherThings = value;
+            }
+        }
+    }
+
 }
