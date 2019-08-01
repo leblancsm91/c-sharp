@@ -4,18 +4,20 @@ using System.Collections.Generic;
 class Program
 {
     static void Main(string[] args)
-    {/*
+    {
         //1. 2. 3.
         string[] rainbow = { "red", "orange", "yellow", "green", "blue", "purple" };
-        Console.WriteLine("what color is not in the rainbow?");
-        Console.ReadLine(answer);
+        Console.WriteLine("chhoose a color: ");
+        string answer = Console.ReadLine();
+        answer = answer.ToUpper();
         
-        for (int b = 4; b == "blue"; b++)
+        if (answer == "blue")
         {
-            if (rainbow[b] == "blue")
-            {
-                Console.WriteLine(rainbow[b]);
-            }
+            Console.WriteLine("good. {0} is not apart of hte rainbow", answer);
+        }
+        else
+        {
+            Console.WriteLine("nope! {0} is actually in a rainbow!", answer);
         }
         Console.ReadLine();
 
@@ -69,7 +71,7 @@ class Program
             }
         }
         Console.ReadLine();
-        */
+        
         //9. 10. 
         List<string> weatherTypes = new List<string>() { "hot", "wet", "cold", "moderate", "hot" };
 
