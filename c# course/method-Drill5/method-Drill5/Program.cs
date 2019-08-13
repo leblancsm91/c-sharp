@@ -14,13 +14,13 @@ namespace method_Drill5
 
             Console.WriteLine("type number");
             int numb1 = Convert.ToInt32(Console.ReadLine());
-            int result = product.Divide(numb1);
+            double result = product.Divide(numb1);
             Console.WriteLine(result);
             Console.ReadLine();
 
             Console.WriteLine("type a different number");
             int numb2 = Convert.ToInt32(Console.ReadLine());
-            int result2 = product.Divide(numb2);
+            double result2 = product.Divide(numb2);
             Console.WriteLine(result2);
             Console.ReadLine();
 
