@@ -15,10 +15,18 @@ class Program
         string course = Console.ReadLine();
 
         Console.WriteLine("What page number?");
-        int pageNumber = Console.ReadLine();
+        int pageNumber = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Do you need help with anything?");
-        bool answer = Console.ReadLine(if yes = true, else = false);
+        bool answer = true || false;
+;        if (true)
+        {
+            Console.ReadLine("yes");
+        }
+        else if (false)
+        {
+            Console.ReadLine("no");
+        }
 
         Console.WriteLine("Were there any positive experiences you had? If so, please be specific");
         string positiveExp = Console.ReadLine();
@@ -27,9 +35,10 @@ class Program
         string feedBack = Console.ReadLine();
 
         Console.WriteLine("How many hours did you study today?");
-        char hoursStudied = Console.ReadLine();
+        char hoursStudied = Convert.ToChar(Console.ReadLine());
 
-        Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
-
+        Console.Write("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
+        Console.ReadLine();
     }
+
 }
