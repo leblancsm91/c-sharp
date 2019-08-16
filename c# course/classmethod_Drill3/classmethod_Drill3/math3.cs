@@ -8,10 +8,9 @@ namespace classmethod_Drill3
 {
     public class math3
     {
-        public string Add(string Number3)
+        public int Add(int Number3)
         {
-            string Number3 = Convert.ToInt32(Console.ReadLine());
-            return Number3 + 10;
+            int answer = Number3 + 10;
         }
     }
 }

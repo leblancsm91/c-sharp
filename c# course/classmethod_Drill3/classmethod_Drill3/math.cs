@@ -10,7 +10,7 @@ namespace classmethod_Drill3
     {
         public int Add(int Number1)
         {
-            return Number1 + 15;
+            return Number1 + 12;
         }
     }
 }

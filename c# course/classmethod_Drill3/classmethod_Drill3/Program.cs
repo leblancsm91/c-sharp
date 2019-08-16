@@ -14,24 +14,18 @@ namespace classmethod_Drill3
 
             Console.WriteLine("type a number to add");
             int Number1 = Convert.ToInt32(Console.ReadLine());
-            int answer1 = operation.Add(Number1);
-            Console.WriteLine(answer1);
-            Console.ReadLine();
+            int numAnswer1 = Number1 + 12;
+            int answer1 = operation.Add(numAnswer1);
 
             math2 operation2 = new math2();
 
             Console.WriteLine("type a number to be subtracted");
-            float Number2 = Convert.ToInt32(Console.ReadLine());
-            float answer2 = operation2.Subt(Number2);
-            Console.WriteLine(answer2);
-            Console.ReadLine();
+            double Number2 = Convert.ToDouble(Console.ReadLine());
+            double answer2 = operation2.Subt(Number2);
 
             math3 operation3 = new math3();
 
             Console.WriteLine("type a number to be added");
-            string Number3 = Convert.ToInt32(Console.ReadLine());
-            string answer3 = operation3.Add(Number3);
-            Console.WriteLine(answer3);
             Console.ReadLine();
 
 
