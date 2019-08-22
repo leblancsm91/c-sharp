@@ -13,9 +13,6 @@ namespace inheritance_Drill1
 
         public void SayName()
         {
-            string FullName = FirstName + LastName;
-            Console.WriteLine("Name: " + FullName);
-            Console.ReadLine();
         }
     }
 }
