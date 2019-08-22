@@ -10,10 +10,13 @@ namespace abstractDrill
     {
         public void Main(string[] args)
         {
-            public abstract Employee()
-            {
-            Console.ReadLine(Employee.SayName());
-            }
+            Employee employee = new Employee();
+
+            Console.WriteLine("type employee's first name: ");
+            employee.FirstName = "student";
+            employee.LastName = "sample";
+
+            employee.SayName();
         }
     }
 }

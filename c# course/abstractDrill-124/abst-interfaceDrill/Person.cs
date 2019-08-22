@@ -10,8 +10,9 @@ namespace abstractDrill
     {
         public void SayName()
         {
-            string FirstName = "sample";
-            string LastName = "student";
+            public string FirstName { get; set; }
+            public string LastName { get; set; }
+
         }    
     }
 }

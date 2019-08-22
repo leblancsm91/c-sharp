@@ -10,7 +10,8 @@ namespace abstractDrill
     {
         public void SayName()
         {
-            Console.ReadLine();
+            Console.WriteLine("first name: " +FirstName.ToString());
+            Console.WriteLine("last name: " + LastName.ToString());
         }
     }
 }
