@@ -8,9 +8,6 @@ namespace iquitDrill_126
 {
     public interface IQuittable
     {
-        public void Quit()
-        {
-            string quit = "I quit";
-        }
+        void Quit();
     }
 }

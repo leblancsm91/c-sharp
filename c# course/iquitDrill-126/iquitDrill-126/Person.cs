@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace iquitDrill_126
 {
-    public class Person
+    public abstract class Person
     {
-        public void SayName()
-        {
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-        }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
     }
-}
+    public virtual void SayName();
+    {
+        Console.WriteLine("FirstName : " + FirstName + "\n LastName : " + LastName);
+    }
+} //****** WHAT TO PUT HERE? ^^
+// ******* WHY SAYNAME() DOENST WORK?
