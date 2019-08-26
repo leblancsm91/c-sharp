@@ -8,13 +8,16 @@ namespace abstractDrill
 {
     class Program
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
             Employee employee = new Employee();
             employee.FirstName = "student";
             employee.LastName = "sample";
 
             employee.SayName();
+
+            Console.ReadLine();
+            //always inside main method^
         }
     }
 }

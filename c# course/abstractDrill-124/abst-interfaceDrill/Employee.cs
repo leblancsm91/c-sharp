@@ -8,9 +8,9 @@ namespace abstractDrill
 {
     public class Employee : Person
     {
-        public void SayName()
+        public override void SayName()
         {
-            Console.WriteLine("first name: " +FirstName.ToString());
+            Console.WriteLine("first name: " + FirstName.ToString());
             Console.WriteLine("last name: " + LastName.ToString());
         }
     }

@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace abstractDrill
 {
-    public class Person
+    public abstract class Person
     {
-        public void SayName()
-        {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
 
-            public string FirstName { get; set; }
-            public string LastName { get; set; }
-
-        }    
+        public abstract void SayName();
     }
 }
