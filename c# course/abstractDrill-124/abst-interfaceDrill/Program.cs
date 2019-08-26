@@ -11,8 +11,6 @@ namespace abstractDrill
         public void Main(string[] args)
         {
             Employee employee = new Employee();
-
-            Console.WriteLine("type employee's first name: ");
             employee.FirstName = "student";
             employee.LastName = "sample";
 
