@@ -11,10 +11,8 @@ namespace iquitDrill_126
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
+        public abstract void SayName();
+        //inside class alwasy ^^
+
     }
-    public virtual void SayName();
-    {
-        Console.WriteLine("FirstName : " + FirstName + "\n LastName : " + LastName);
-    }
-} //****** WHAT TO PUT HERE? ^^
-// ******* WHY SAYNAME() DOENST WORK?
+}
