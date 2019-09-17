@@ -1,5 +1,0 @@
-C:\Users\Owner\Documents\tech_academy\c# course\variablesanddatatypes\variablesanddatatypes\obj\Debug\variablesanddatatypes.csprojAssemblyReference.cache
-C:\Users\Owner\Documents\tech_academy\c# course\variablesanddatatypes\variablesanddatatypes\obj\Debug\MainWindow.g.cs
-C:\Users\Owner\Documents\tech_academy\c# course\variablesanddatatypes\variablesanddatatypes\obj\Debug\App.g.cs
-C:\Users\Owner\Documents\tech_academy\c# course\variablesanddatatypes\variablesanddatatypes\obj\Debug\variablesanddatatypes_MarkupCompile.cache
-C:\Users\Owner\Documents\tech_academy\c# course\variablesanddatatypes\variablesanddatatypes\obj\Debug\variablesanddatatypes_MarkupCompile.lref
