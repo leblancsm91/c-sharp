@@ -1,7 +1,0 @@
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\bin\Debug\acmeaccounting_projj.exe.config
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\bin\Debug\acmeaccounting_projj.exe
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\bin\Debug\acmeaccounting_projj.pdb
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\obj\Debug\acmeaccounting_projj.csprojAssemblyReference.cache
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\obj\Debug\acmeaccounting_projj.csproj.CoreCompileInputs.cache
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\obj\Debug\acmeaccounting_projj.exe
-C:\Users\Owner\Documents\tech_academy\c# course\acmeaccounting_projj\acmeaccounting_projj\obj\Debug\acmeaccounting_projj.pdb
